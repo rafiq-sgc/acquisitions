@@ -1,0 +1,25 @@
+{
+  "name": "acquisitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafiq-sgc/acquisitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rafiq-sgc/acquisitions/issues"
+  },
+  "homepage": "https://github.com/rafiq-sgc/acquisitions#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
