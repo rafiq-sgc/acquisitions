@@ -1,0 +1,12 @@
+{"level":"info","message":"Root endpoint accessed","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:09:55:26 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Root endpoint accessed","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:06:02 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:06:08 +0000] \"GET /health HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:23:47 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Root endpoint accessed","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:23:54 +0000] \"GET / HTTP/1.1\" 200 34 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:24:01 +0000] \"GET /health HTTP/1.1\" 404 145 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:24:56 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:30:47 +0000] \"GET /api HTTP/1.1\" 200 28 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [05/Oct/2025:10:30:54 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
