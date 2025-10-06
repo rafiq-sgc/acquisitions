@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 
 // import routes
 import authRoutes from '#routes/auth.routes.js';
+import securityMiddleware from './middleware/security.middleware.js';
 
 // Initialize express app
 const app = express();
@@ -21,7 +22,7 @@ app.use(cookieParser());
 
 // HTTP request logger middleware
 app.use(morgan('combined', { stream: { write: message => logger.info(message.trim()) } }));
-
+app.use(securityMiddleware);
 
 
 // Sample route
